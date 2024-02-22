@@ -472,8 +472,15 @@ section{
     #menu-icon{
         display: block;
     }
+    #menu-icon.navlist a:active{
+        display: block;
+        margin: 17px;
+        font-size: 20px;
+        transition: all .45s ease;
+        color: var(--text-color);
+    }
     .navlist{
-        position: absolute;        ;
+        position: absolute;
         top: -1000px;
         right: 0;
         left: 0;
